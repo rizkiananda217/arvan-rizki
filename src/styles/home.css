@@ -306,3 +306,130 @@
     grid-template-columns: 1fr;
   }
 }
+
+/* ====== FOLLOW ME / SOCIAL SECTION ====== */
+
+.social-section {
+  margin-top: 40px;
+}
+
+.social-inner {
+  border-radius: 20px;
+  padding: 24px 20px;
+  background: linear-gradient(
+    135deg,
+    rgba(79, 70, 229, 0.18),
+    rgba(14, 165, 233, 0.18)
+  );
+  border: 1px solid rgba(129, 140, 248, 0.45);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+@media (min-width: 768px) {
+  .social-inner {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+.social-text h2 {
+  font-size: 1.45rem;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.social-text p {
+  font-size: 0.92rem;
+  color: var(--text-muted);
+}
+
+.social-label {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  margin-bottom: 6px;
+  color: var(--accent);
+}
+
+.social-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+/* SOCIAL BUTTON DESIGN */
+.social-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 16px;
+  border-radius: 999px;
+  font-size: 0.93rem;
+  font-weight: 600;
+  text-decoration: none;
+  background: #fff;
+  border: 2px solid transparent;
+  transition: transform 0.15s ease, box-shadow 0.15s ease, opacity 0.15s ease;
+}
+
+.social-pill svg {
+  width: 24px;
+  height: 24px;
+}
+
+/* ==== PLATFORM COLORS ==== */
+
+/* Instagram GRADIENT */
+.social-pill.instagram {
+  background: linear-gradient(45deg, #feda75, #fa7e1e, #d62976, #962fbf, #4f5bd5);
+  color: #fff;
+}
+.social-pill.instagram:hover {
+  box-shadow: 0 8px 25px rgba(214, 41, 118, 0.45);
+  transform: translateY(-2px);
+}
+
+/* TikTok */
+.social-pill.tiktok {
+  background: #000;
+  color: #fff;
+}
+.social-pill.tiktok:hover {
+  box-shadow: 0 8px 20px rgba(29, 233, 182, 0.4);
+  transform: translateY(-2px);
+}
+
+/* LinkedIn */
+.social-pill.linkedin {
+  background: #0077b5;
+  color: #fff;
+}
+.social-pill.linkedin:hover {
+  box-shadow: 0 8px 20px rgba(0, 119, 181, 0.4);
+  transform: translateY(-2px);
+}
+
+/* YouTube */
+.social-pill.youtube {
+  background: #ff0000;
+  color: #fff;
+}
+.social-pill.youtube:hover {
+  box-shadow: 0 8px 20px rgba(255, 0, 0, 0.4);
+  transform: translateY(-2px);
+}
+
+/* Facebook */
+.social-pill.facebook {
+  background: #1877f2;
+  color: #fff;
+}
+.social-pill.facebook:hover {
+  box-shadow: 0 8px 20px rgba(24, 119, 242, 0.4);
+  transform: translateY(-2px);
+}
+

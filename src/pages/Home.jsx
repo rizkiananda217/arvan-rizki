@@ -5,7 +5,13 @@ import {
   Headphones,
   Wrench,
   Image as ImageIcon,
+  Instagram,
+  Facebook,
+  Linkedin,
+  Youtube,
+  Music2, // dipakai untuk ikon TikTok
 } from "lucide-react";
+
 import profileImg from "../assets/12.jpeg";
 import workspaceImg from "../assets/11.jpeg";
 import galleryWebsite from "../assets/4.jpeg";
@@ -42,7 +48,7 @@ const miniGallery = [
 
 // LINK WHATSAPP – pakai format internasional 628...
 const WHATSAPP_LINK =
-  "https://wa.me/62895325972351?text=Halo%20Arvan%20Shadowa,%20saya%20ingin%20melakukan%20layanan%20konsultasi%20melalui%20website%20Anda.";
+  "https://wa.me/62895325972351?text=Halo%20kak%20Rizki,%20saya%20ingin%20pesan%20jasa%20/%20konsultasi%20melalui%20website%20Anda.";
 
 function Home() {
   return (
@@ -249,6 +255,74 @@ function Home() {
                 </div>
               </article>
             ))}
+          </div>
+        </section>
+
+        {/* SECTION: FOLLOW ME / SOCIAL MEDIA */}
+        <section className="home-section social-section fade-in-up anim-delay-3">
+          <div className="social-inner">
+            <div className="social-text">
+              <p className="social-label">Follow Me</p>
+              <h2>Terhubung dengan saya di sosial media</h2>
+              <p>
+                Kamu bisa mengikuti aktivitas, project, dan konten yang saya
+                bagikan di berbagai platform berikut. Silakan pilih platform
+                yang paling sering kamu gunakan.
+              </p>
+            </div>
+
+            <div className="social-links">
+              {/* Ganti href dengan link asli sosial media kamu */}
+              <a
+                href="https://www.instagram.com/rizkiananda0000/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="social-pill instagram"
+              >
+                <Instagram size={18} />
+                <span>Instagram</span>
+              </a>
+
+              <a
+                href="https://tiktok.com/@username_kamu"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="social-pill tiktok"
+              >
+                <Music2 size={18} />
+                <span>TikTok</span>
+              </a>
+
+              <a
+                href="https://www.linkedin.com/in/username_kamu"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="social-pill linkedin"
+              >
+                <Linkedin size={18} />
+                <span>LinkedIn</span>
+              </a>
+
+              <a
+                href="https://youtube.com/@username_kamu"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="social-pill youtube"
+              >
+                <Youtube size={18} />
+                <span>YouTube</span>
+              </a>
+
+              <a
+                href="https://facebook.com/username_kamu"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="social-pill facebook"
+              >
+                <Facebook size={18} />
+                <span>Facebook</span>
+              </a>
+            </div>
           </div>
         </section>
       </div>
