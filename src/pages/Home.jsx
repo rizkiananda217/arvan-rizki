@@ -11,7 +11,7 @@ import workspaceImg from "../assets/11.jpeg";
 import galleryWebsite from "../assets/4.jpeg";
 import gallerySetup from "../assets/2.jpeg";
 import galleryCampus from "../assets/8.jpeg";
-import galleryCode from "../assets/1.png";
+import galleryCode from "../assets/1.PNG";
 
 const miniGallery = [
   {

@@ -6,8 +6,8 @@ import projCampusImg from "../assets/14.jpeg";
 import projItSupportImg from "../assets/15.jpeg";
 
 
-import certItImg from "../assets/16.png";
-import certFrontendImg from "../assets/16.png";
+import certItImg from "../assets/16.PNG";
+import certFrontendImg from "../assets/16.PNG";
 import certWebinarImg from "../assets/9.jpg";
 
 // ====== DATA PROJECT ======
