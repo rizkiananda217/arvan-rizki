@@ -65,11 +65,11 @@ function Contact() {
                     target="_blank"
                     rel="noreferrer"
                   >
-                    @arvanshadowa
+                    @rizkiananda0000
                   </a>
                 </li>
                 <li>
-                  WhatsApp: <span>link / nomor nanti kamu isi sendiri</span>
+                  WhatsApp: <span>0895325972351</span>
                 </li>
                 <li>
                   LinkedIn:{" "}
