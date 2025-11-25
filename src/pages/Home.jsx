@@ -42,7 +42,7 @@ const miniGallery = [
 
 // LINK WHATSAPP – pakai format internasional 628...
 const WHATSAPP_LINK =
-  "https://wa.me/62895325972351?text=Halo%20kak%20Rizki,%20saya%20ingin%20pesan%20jasa%20/%20konsultasi%20melalui%20website%20Anda.";
+  "https://wa.me/62895325972351?text=Halo%20Arvan%20Shadowa,%20saya%20ingin%20pesan%20jasa%20/%20konsultasi%20melalui%20website%20Anda.";
 
 function Home() {
   return (
